@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(240, 246, 255);
+  font-family: sans-serif;
+  margin: 0;
+  color: #a54545;
+}
+
+.bar {
+  text-align: center;
+  background-color: #7c7c7c;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  clear: both;
+  border-radius: 8px;
+}
+
+#main-nav {
+  background-color: crimson;
+  text-align: center;
+  margin: 0 10px 10px 10px;
+  border-radius: 8px;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav li {
+  display: inline-block;
+}
+
+#main-nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+}
+
+#main-nav a:hover {
+  background-color: #666;
+}
+
+.main-container {
+  border: 2px solid #111;
+  margin: 0 10px 10px 10px;
+  padding: 1px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.content-area {
+  width: 68%;
+  float: left;
+  background-color: #f9fbff;
+  border: 2px solid #111;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#sidebar {
+  width: 28%;
+  float: right;
+  background-color: #011222;
+  border: 2px solid #111;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#sidebar:hover {
+  background-color: #b2ffb2;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 6px;
+  border: 2px solid #111;
+  border-radius: 6px;
+  transition: width 0.2s ease;
+}
+
+input[type="text"]:focus {
+  width: 300px;
+  outline: none;
+}
+
+select {
+  padding: 6px;
+  border: 2px solid #111;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+}
